@@ -8,7 +8,7 @@ John Rymell P. Pabellosa
 # **J & B GameHub**
 
 ## End Point 1: Get all available games
-**Request:**
+- **Request:**
     `GET /api/games`
 
 **Description:**
