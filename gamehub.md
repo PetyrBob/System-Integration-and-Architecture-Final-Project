@@ -30,10 +30,10 @@ Status code: `200 OK`
      Body:
 	[
     	{
-		    “id”: 001,
-                "name": "Valorant",
+		    	“id”: 001,
+        		"name": "Valorant",
         		"developer": “Riot Games",
-       		    "category": "First-Person Shooting Games",
+       		   	 "category": "First-Person Shooting Games",
 		        “released: “2 June, 2020”
         		"price": "Free",
         		"advertisement": "Video Link"
@@ -49,9 +49,9 @@ Status code: `200 OK`
     		},
     		{
 		        “ id”: 003,
-                "name": "Minecraft",
+               		 "name": "Minecraft",
         		"developer": “Mojang Studios",
-       		    "category": "Survival, Multiplayer",
+       		    	"category": "Survival, Multiplayer",
 		        “released: “18 November, 2011”
         		"price": "₱69",
         		"advertisement": "Video Link"
@@ -66,7 +66,7 @@ Response(XML):
         	<name>Valorant</name>
         	<developer>Riot Games</developer>
         	<category>First-Person Shooting Games</category>
-		    <released>2 June, 2020</released>
+		<released>2 June, 2020</released>
         	<price>zFree</price>
         	<advertisement>Video Link</advertisement>
 	    </game>
@@ -75,7 +75,7 @@ Response(XML):
         	<name>League of Legends</name>
         	<developer>RiotGames</developer>
         	<category>Multiplayer Online Battle Arena(MOBA)</category>
-		    <released>27 October, 2007</released>
+		<released>27 October, 2007</released>
         	<price>Free</price>
         	<advertisement>Video Link</advertisement>
 	    </game>
@@ -84,7 +84,7 @@ Response(XML):
         	<name>Minecraft</name>
         	<developer>Mojang Studios</developer>
         	<category>Survival, Multiplayer</category>
-		    <released>18 November, 2011</released>
+		<released>18 November, 2011</released>
         	<price>₱69</price>
         	<advertisement>In Stock</advertisement>
 	    </game>
@@ -109,22 +109,22 @@ Status code: `200 OK`
 
 	Body:
 		{
-            "name": "Tekken 8",
+            	"name": "Tekken 8",
         	"developer": “Bandai Namco",
        		"category": "Martial Arts, Multiplayer",
-		    “released: “26 Jan, 2024”
+		“released: “26 Jan, 2024”
         	"price": "₱2799.95",
         	"advertisement": "Video Link"
-    	},
+    		},
 
 Response(XML):
 
 	<body>
-    	<game>
+    	  <game>
             <name>Tekken 8</name>
         	<developer>Bandai Namco Studios</developer>
         	<category>Martial Arts, Multiplayer</category>
-		    <released>26 Jan, 2024</released>
+		<released>26 Jan, 2024</released>
         	<price>₱2799.95</price>
         	<advertisement>Video Link</advertisement>
 	    </game>
@@ -148,11 +148,11 @@ Response(XML):
 **Request Body(JSON):** Status code: `200 OK`
 
     body:
-		{
-            "name": "DRAGON BALL: Sparkling! ZERO",
+	{
+            	"name": "DRAGON BALL: Sparkling! ZERO",
         	"developer": “Spike Chunsoft",
        		"category": "3D Fighter, Multiplayer",
-		    “released: “11 October, 2024”
+		“released: “11 October, 2024”
         	"price": "₱2799.00",
         	"advertisement": "Video Link"
     	},
@@ -160,11 +160,11 @@ Response(XML):
 **Request Body(XML):**
 
 	<body>
-    	<game>
+    	     <game>
         	<name>DRAGON BALL: Sparkling! ZERO</name>
         	<developer>Bandai Namco Studios</developer>
         	<category>3D Fighter, Multiplayer</category>
-		    <released>26 Jan, 2024</released>
+		<released>26 Jan, 2024</released>
         	<price>₱2799.95</price>
         	<advertisement>Video Link</advertisement>
 	    </game>
@@ -173,20 +173,20 @@ Response(XML):
 **Response(JSON):**
 
     body:
-		{
-		    “id”: 004,
-            "name": "DRAGON BALL: Sparkling! ZERO",
+	{
+		“id”: 004,
+           	"name": "DRAGON BALL: Sparkling! ZERO",
         	"developer": "Spike Chunsoft",
        		"category": "3D Fighter, Multiplayer",
-		    "released": “11 October, 2024”
+		"released": “11 October, 2024”
         	"price": "₱2799.00",
-            "advertisement": "Video Link"
+            	"advertisement": "Video Link"
     	},
 
 **Response(XML):**
 
 	<body>
-    	<game>
+    	     <game>
         	<id>004</id>
         	<name>DRAGON BALL: Sparkling! ZERO</name>
         	<developer>Bandai Namco Studios</developer>
@@ -213,11 +213,11 @@ Response(XML):
 **Request Body(JSON):** Status code: `200 OK`
 
     body:
-		{
-            "name": "Assasin’s Creed Origins",
+	{
+            	"name": "Assasin’s Creed Origins",
         	"developer": “Ubisoft Montreal",
        		"category": "Action Role-Playing",
-		    “released: “27 October, 2017”
+		“released: “27 October, 2017”
         	"price": "₱2200.00",
         	"advertisement": "Video Link"
     	},
@@ -225,12 +225,12 @@ Response(XML):
 **Request Body(XML):**
 
 	<body>
-    	<game>
-            <name>Assasin’s Creed Origins</name>
-            <developer>Ubisoft Montreal</developer>
-            <category>Action Role-Playing</category>
-		    <released>27 October, 2017</released>
-            <price>₱2200.00</price>
+    	     <game>
+            	<name>Assasin’s Creed Origins</name>
+            	<developer>Ubisoft Montreal</developer>
+            	<category>Action Role-Playing</category>
+		<released>27 October, 2017</released>
+            	<price>₱2200.00</price>
         	<advertisement>Video Link</advertisement>
 	    </game>
 	</body>
@@ -238,12 +238,12 @@ Response(XML):
 **Response(JSON):**
 
     body:
-		{
-		    “id”: 006,
-            "name": "Assasin’s Creed Origins",
+	{
+		“id”: 006,
+	        "name": "Assasin’s Creed Origins",
         	"developer": “Ubisoft Montreal",
        		"category": "Action Role-Playing",
-		    “released: “27 October, 2017”
+		“released: “27 October, 2017”
         	"price": "₱2200.00",
         	"advertisement": "Video Link"
     	},
@@ -251,15 +251,15 @@ Response(XML):
 **Response(XML):**
 
 	<body>
-    	<game>
+    	   <game>
 		<id>006</id>
-        <name>Assasin’s Creed Origins</name>
-        <developer>Ubisoft Montreal</developer>
-        <category>Action Role-Playing</category>
+        	<name>Assasin’s Creed Origins</name>
+        	<developer>Ubisoft Montreal</developer>
+        	<category>Action Role-Playing</category>
 		<released>27 October, 2017</released>
-        <price>₱2200.00</price>
-        <advertisement>Video Link</advertisement>
-	</game>
+        	<price>₱2200.00</price>
+        	<advertisement>Video Link</advertisement>
+	   </game>
 	</body>
 
 
@@ -278,33 +278,33 @@ Response(XML):
 
 	body:
 		{
-            "name": "Red Dead Redemption 2",
-        },
+            		"name": "Red Dead Redemption 2",
+	        },
 
 Request Body(XML):
 
 	<body>
-    	<game>
-        <name>Red Dead Redemption 2</name>
-        </game>
+    	   <game>
+        	<name>Red Dead Redemption 2</name>
+           </game>
 	</body>
 
 Response(JSON):
 
 	body:
 		{
-            "name": "Red Dead Redemption 2",
-		    "name": "Minecraft",
-		    "name": "Valorant",
-        },
+            		"name": "Red Dead Redemption 2",
+		    	"name": "Minecraft",
+		   	 "name": "Valorant",
+        	},
 
 Response(XML):
 	<body>
-    	<game>
-            <name>Red Dead Redemption 2</name>
-		    <name>Minecraft</name>
-		    <name>Valorant</name>
-        </game>
+    	    <game>
+            	<name>Red Dead Redemption 2</name>
+		<name>Minecraft</name>
+		<name>Valorant</name>
+            </game>
 	</body>
 
 ## End point 6: Get game by ID
@@ -322,29 +322,29 @@ Response(XML):
 **Request Body(JSON):** Status code: `200 OK`
 
 	body:
-		{
-		    “id”: 006,
-            "name": "Call of Duty: Black Ops 6",
-        	"developer": “Treyarch, Raven Software",
-       		"category": "FPS",
-		    “released: “25 October, 2024”
-        	"price": "₱3699.00",
-        	"advertisement": "Video Link"
-    	},
+	 	{
+		    	“id”: 006,
+            		"name": "Call of Duty: Black Ops 6",
+        		"developer": “Treyarch, Raven Software",
+       			"category": "FPS",
+		   	 “released: “25 October, 2024”
+        		"price": "₱3699.00",
+        		"advertisement": "Video Link"
+    		},
 
 
 **Response(XML):**
 
 	<body>
-    	<game>
-			<id>006</id>
+    	    <game>
+		<id>006</id>
         	<name>Call of Duty: Black Ops 6</name>
         	<developer>Treyarch, Raven Software</developer>
         	<category>FPS</category>
-		    <released>25 October, 2024</released>
+		 <released>25 October, 2024</released>
         	<price>₱3699.00</price>
         	<advertisement>Video Link</advertisement>
-	</game>
+	   </game>
 	</body>
 
 
@@ -363,11 +363,11 @@ Get all the games in a wishlist collection
 
 	body:
 		{ 
-            "wishlist": { 
-            "games": [ 
-            "Red Dead Redemption 2", 
-            "Minecraft", 
-            "Valorant" 
+            		"wishlist": { 
+            		"games": [ 
+           			 "Red Dead Redemption 2", 
+            			"Minecraft", 
+           			 "Valorant" 
                 ] 
             } 
         },
@@ -376,9 +376,9 @@ Get all the games in a wishlist collection
 
 	<wishlist>
     		<games>
-        	<name>Red Dead Redemption 2</name>
-		    <name>Minecraft</name>
-		    <name>Valorant</name>
+        		<name>Red Dead Redemption 2</name>
+		    	<name>Minecraft</name>
+		    	<name>Valorant</name>
         	</games>
 	</wishlist>
 
@@ -397,8 +397,8 @@ Get all the games in a wishlist collection
 
 	body:
 		{
-            "message": “Game has been successfully deleted”
-        },
+            		"message": “Game has been successfully deleted”
+        	},
 **Response(JSON):**
 
 	<body>
@@ -420,11 +420,11 @@ Headers:
 **Request Body(JSON):** Status code: `200 OK`
 
 	Body:
-    	{
-            “name”: “Valorant”,
-            “name”: “League of Legends”,
-            “name”: “Teamfight Tactics(TFT)”,
-    	}
+	    	{
+	            “name”: “Valorant”,
+	            “name”: “League of Legends”,
+	            “name”: “Teamfight Tactics(TFT)”,
+	    	}
 
 
 	
@@ -445,22 +445,22 @@ Headers:
     		{
 		        "name": "Minecraft",
         		"developer": “Mojang Studios",
-       		    "category": "Survival, Multiplayer",
+	       		    "category": "Survival, Multiplayer",
 		        “released: “18 November, 2011”
         		"price": "₱69",
         		"advertisement": "Video Link"
     		}
 		{
-                "name": "DRAGON BALL: Sparkling! ZERO",
+                	"name": "DRAGON BALL: Sparkling! ZERO",
         		"developer": “Spike Chunsoft",
-       		    "category": "3D Fighter, Multiplayer",
+       		    	"category": "3D Fighter, Multiplayer",
 		        “released: “11 October, 2024”
         		"price": "₱2799.00",
         		"advertisement": "Video Link"
     		},
 		        "name": "Tekken 8",
         		"developer": “Bandai Namco",
-       		    "category": "Martial Arts, Multiplayer",
+       		    	"category": "Martial Arts, Multiplayer",
 		        “released: “26 Jan, 2024”
         		"price": "₱2799.95",
         		"advertisement": "Video Link"
