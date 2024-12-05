@@ -29,12 +29,12 @@ Status code: `200 OK`
 
      Body:
 	[
-    		{
-		“id”: 001,
-                	"name": "Valorant",
+    	{
+		    “id”: 001,
+                "name": "Valorant",
         		"developer": “Riot Games",
-       		"category": "First-Person Shooting Games",
-		“released: “2 June, 2020”
+       		    "category": "First-Person Shooting Games",
+		        “released: “2 June, 2020”
         		"price": "Free",
         		"advertisement": "Video Link"
     		},
@@ -43,16 +43,16 @@ Status code: `200 OK`
         		"name": "League of Legends",
         		"developer": "Riot Games",
         		"category": “Multiplayer Online Battle Arena(MOBA)",
-		“released: “27 October, 2007”
+		        “released: “27 October, 2007”
         		"price": "Free",
         		"advertisement": "Video Link"
     		},
     		{
-		“id”: 003,
-                	"name": "Minecraft",
+		        “ id”: 003,
+                "name": "Minecraft",
         		"developer": “Mojang Studios",
-       		"category": "Survival, Multiplayer",
-		“released: “18 November, 2011”
+       		    "category": "Survival, Multiplayer",
+		        “released: “18 November, 2011”
         		"price": "₱69",
         		"advertisement": "Video Link"
     		}
@@ -107,7 +107,7 @@ Response(XML):
 **Request(JSON):**
 Status code: `200 OK`
 
-	body:
+	Body:
 		{
             "name": "Tekken 8",
         	"developer": “Bandai Namco",
@@ -180,7 +180,7 @@ Response(XML):
        		"category": "3D Fighter, Multiplayer",
 		    "released": “11 October, 2024”
         	"price": "₱2799.00",
-        "advertisement": "Video Link"
+            "advertisement": "Video Link"
     	},
 
 **Response(XML):**
@@ -239,13 +239,13 @@ Response(XML):
 
     body:
 		{
-		“id”: 006,
-                	"name": "Assasin’s Creed Origins",
-        		"developer": “Ubisoft Montreal",
+		    “id”: 006,
+            "name": "Assasin’s Creed Origins",
+        	"developer": “Ubisoft Montreal",
        		"category": "Action Role-Playing",
-		“released: “27 October, 2017”
-        		"price": "₱2200.00",
-        		"advertisement": "Video Link"
+		    “released: “27 October, 2017”
+        	"price": "₱2200.00",
+        	"advertisement": "Video Link"
     	},
 
 **Response(XML):**
@@ -364,10 +364,10 @@ Get all the games in a wishlist collection
 	body:
 		{ 
             "wishlist": { 
-                "games": [ 
-                    "Red Dead Redemption 2", 
-                    "Minecraft", 
-                    "Valorant" 
+            "games": [ 
+            "Red Dead Redemption 2", 
+            "Minecraft", 
+            "Valorant" 
                 ] 
             } 
         },
@@ -376,9 +376,9 @@ Get all the games in a wishlist collection
 
 	<wishlist>
     		<games>
-        		<name>Red Dead Redemption 2</name>
-		<name>Minecraft</name>
-		<name>Valorant</name>
+        	<name>Red Dead Redemption 2</name>
+		    <name>Minecraft</name>
+		    <name>Valorant</name>
         	</games>
 	</wishlist>
 
@@ -397,8 +397,8 @@ Get all the games in a wishlist collection
 
 	body:
 		{
-                	"message": “Game has been successfully deleted”
-        		},
+            "message": “Game has been successfully deleted”
+        },
 **Response(JSON):**
 
 	<body>
