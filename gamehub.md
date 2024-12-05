@@ -25,31 +25,31 @@ Status code: `200 OK`
      Body:
 	[
     		{
-		“game_id”: 001,
-                	"game_name": "Valorant",
+		“id”: 001,
+                	"name": "Valorant",
         		"developer": “Riot Games",
        		"category": "First-Person Shooting Games",
-		“released_date: “2 June, 2020”
+		“released: “2 June, 2020”
         		"price": "Free",
-        		"advertisement_video": "Video Link"
+        		"advertisement": "Video Link"
     		},
     		{
-        		“game_id”: 002,
-        		"game_name": "League of Legends",
+        		“id”: 002,
+        		"name": "League of Legends",
         		"developer": "Riot Games",
         		"category": “Multiplayer Online Battle Arena(MOBA)",
-		“released_date: “27 October, 2007”
+		“released: “27 October, 2007”
         		"price": "Free",
-        		"advertisement_video": "Video Link"
+        		"advertisement": "Video Link"
     		},
     		{
-		“game_id”: 003,
-                	"game_name": "Minecraft",
+		“id”: 003,
+                	"name": "Minecraft",
         		"developer": “Mojang Studios",
        		"category": "Survival, Multiplayer",
-		“released_date: “18 November, 2011”
+		“released: “18 November, 2011”
         		"price": "₱69",
-        		"advertisement_video": "Video Link"
+        		"advertisement": "Video Link"
     		}
 	]
     		
@@ -57,31 +57,31 @@ Response(XML):
 
     <body>
     	<game>
-        	<game_id>001</game_id>
-        	<game_name>Valorant</game_name>
+        	<id>001</id>
+        	<name>Valorant</name>
         	<developer>Riot Games</developer>
         	<category>First-Person Shooting Games</category>
-		    <released_date>2 June, 2020</released_date>
+		    <released>2 June, 2020</released>
         	<price>zFree</price>
-        	<advertisement_video>Video Link</advertisement_video>
+        	<advertisement>Video Link</advertisement>
 	    </game>
 	    <game>
-        	<game_id>002</game_id>
-        	<game_name>League of Legends</game_name>
+        	<id>002</id>
+        	<name>League of Legends</name>
         	<developer>RiotGames</developer>
         	<category>Multiplayer Online Battle Arena(MOBA)</category>
-		    <released_date>27 October, 2007</released_date>
+		    <released>27 October, 2007</released>
         	<price>Free</price>
-        	<advertisement_video>Video Link</advertisement_video>
+        	<advertisement>Video Link</advertisement>
 	    </game>
 	    <game>
-        	<game_id>003</game_id>
-        	<game_name>Minecraft</game_name>
+        	<id>003</id>
+        	<name>Minecraft</name>
         	<developer>Mojang Studios</developer>
         	<category>Survival, Multiplayer</category>
-		    <released_date>18 November, 2011</released_date>
+		    <released>18 November, 2011</released>
         	<price>₱69</price>
-        	<advertisement_video>In Stock</advertisement_video>
+        	<advertisement>In Stock</advertisement>
 	    </game>
     <body>
 
@@ -90,7 +90,7 @@ Response(XML):
 
 ## End Point 2: Filter a games by name
 **Request:**
-    `GET /api/games/{game_name}`
+    `GET /api/games/{name}`
 
 **Description:**
     Filter a game by name
@@ -104,24 +104,24 @@ Status code: `200 OK`
 
 	body:
 		{
-            "game_name": "Tekken 8",
+            "name": "Tekken 8",
         	"developer": “Bandai Namco",
        		"category": "Martial Arts, Multiplayer",
-		    “released_date: “26 Jan, 2024”
+		    “released: “26 Jan, 2024”
         	"price": "₱2799.95",
-        	"advertisement_video": "Video Link"
+        	"advertisement": "Video Link"
     	},
 
 Response(XML):
 
 	<body>
     	<game>
-            <game_name>Tekken 8</game_name>
+            <name>Tekken 8</name>
         	<developer>Bandai Namco Studios</developer>
         	<category>Martial Arts, Multiplayer</category>
-		    <released_date>26 Jan, 2024</released_date>
+		    <released>26 Jan, 2024</released>
         	<price>₱2799.95</price>
-        	<advertisement_video>Video Link</advertisement_video>
+        	<advertisement>Video Link</advertisement>
 	    </game>
 	</body>
 
@@ -144,24 +144,24 @@ Response(XML):
 
     body:
 		{
-            "game_name": "DRAGON BALL: Sparkling! ZERO",
+            "name": "DRAGON BALL: Sparkling! ZERO",
         	"developer": “Spike Chunsoft",
        		"category": "3D Fighter, Multiplayer",
-		    “released_date: “11 October, 2024”
+		    “released: “11 October, 2024”
         	"price": "₱2799.00",
-        	"advertisement_video": "Video Link"
+        	"advertisement": "Video Link"
     	},
 
 **Request Body(XML):**
 
 	<body>
     	<game>
-        	<game_name>DRAGON BALL: Sparkling! ZERO</game_name>
+        	<name>DRAGON BALL: Sparkling! ZERO</name>
         	<developer>Bandai Namco Studios</developer>
         	<category>3D Fighter, Multiplayer</category>
-		    <released_date>26 Jan, 2024</released_date>
+		    <released>26 Jan, 2024</released>
         	<price>₱2799.95</price>
-        	<advertisement_video>Video Link</advertisement_video>
+        	<advertisement>Video Link</advertisement>
 	    </game>
 	</body>
 
@@ -169,33 +169,33 @@ Response(XML):
 
     body:
 		{
-		    “game_id”: 004,
-            "game_name": "DRAGON BALL: Sparkling! ZERO",
+		    “id”: 004,
+            "name": "DRAGON BALL: Sparkling! ZERO",
         	"developer": "Spike Chunsoft",
        		"category": "3D Fighter, Multiplayer",
-		    "released_date": “11 October, 2024”
+		    "released": “11 October, 2024”
         	"price": "₱2799.00",
-        "advertisement_video": "Video Link"
+        "advertisement": "Video Link"
     	},
 
 **Response(XML):**
 
 	<body>
     	<game>
-        	<game_id>004</game_id>
-        	<game_name>DRAGON BALL: Sparkling! ZERO</game_name>
+        	<id>004</id>
+        	<name>DRAGON BALL: Sparkling! ZERO</name>
         	<developer>Bandai Namco Studios</developer>
         	<category>3D Fighter, Multiplayer</category>
-	        <released_date>26 Jan, 2024</released_date>
+	        <released>26 Jan, 2024</released>
         	<price>₱2799.95</price>
-        	<advertisement_video>Video Link</advertisement_video>
+        	<advertisement>Video Link</advertisement>
 	    </game>
 	</body>
 
 
 ## End point 4: Update game by ID
 **Request:**
-   `PUT /api/games/{game_id}`
+   `PUT /api/games/{id}`
 
 **Description:**
    Update a game by ID
@@ -209,24 +209,24 @@ Response(XML):
 
     body:
 		{
-            "game_name": "Assasin’s Creed Origins",
+            "name": "Assasin’s Creed Origins",
         	"developer": “Ubisoft Montreal",
        		"category": "Action Role-Playing",
-		    “released_date: “27 October, 2017”
+		    “released: “27 October, 2017”
         	"price": "₱2200.00",
-        	"advertisement_video": "Video Link"
+        	"advertisement": "Video Link"
     	},
 
 **Request Body(XML):**
 
 	<body>
     	<game>
-            <game_name>Assasin’s Creed Origins</game_name>
+            <name>Assasin’s Creed Origins</name>
             <developer>Ubisoft Montreal</developer>
             <category>Action Role-Playing</category>
-		    <released_date>27 October, 2017</released_date>
+		    <released>27 October, 2017</released>
             <price>₱2200.00</price>
-        	<advertisement_video>Video Link</advertisement_video>
+        	<advertisement>Video Link</advertisement>
 	    </game>
 	</body>
 
@@ -234,33 +234,33 @@ Response(XML):
 
     body:
 		{
-		“game_id”: 006,
-                	"game_name": "Assasin’s Creed Origins",
+		“id”: 006,
+                	"name": "Assasin’s Creed Origins",
         		"developer": “Ubisoft Montreal",
        		"category": "Action Role-Playing",
-		“released_date: “27 October, 2017”
+		“released: “27 October, 2017”
         		"price": "₱2200.00",
-        		"advertisement_video": "Video Link"
+        		"advertisement": "Video Link"
     	},
 
 **Response(XML):**
 
 	<body>
     	<game>
-		<game_id>006</game_id>
-        <game_name>Assasin’s Creed Origins</game_name>
+		<id>006</id>
+        <name>Assasin’s Creed Origins</name>
         <developer>Ubisoft Montreal</developer>
         <category>Action Role-Playing</category>
-		<released_date>27 October, 2017</released_date>
+		<released>27 October, 2017</released>
         <price>₱2200.00</price>
-        <advertisement_video>Video Link</advertisement_video>
+        <advertisement>Video Link</advertisement>
 	</game>
 	</body>
 
 
 ## End point 5: Add a game to WishList Collection
 **Request:**
-   `POST /api/games/game_name/game_list`
+   `POST /api/games/name/game_list`
 
 **Description:**
    
@@ -273,14 +273,14 @@ Response(XML):
 
 	body:
 		{
-            "game_name": "Red Dead Redemption 2",
+            "name": "Red Dead Redemption 2",
         },
 
 Request Body(XML):
 
 	<body>
     	<game>
-        <game_name>Red Dead Redemption 2</game_name>
+        <name>Red Dead Redemption 2</name>
         </game>
 	</body>
 
@@ -288,23 +288,23 @@ Response(JSON):
 
 	body:
 		{
-            "game_name": "Red Dead Redemption 2",
-		    "game_name": "Minecraft",
-		    "game_name": "Valorant",
+            "name": "Red Dead Redemption 2",
+		    "name": "Minecraft",
+		    "name": "Valorant",
         },
 
 Response(XML):
 	<body>
     	<game>
-            <game_name>Red Dead Redemption 2</game_name>
-		    <game_name>Minecraft</game_name>
-		    <game_name>Valorant</game_name>
+            <name>Red Dead Redemption 2</name>
+		    <name>Minecraft</name>
+		    <name>Valorant</name>
         </game>
 	</body>
 
 ## End point 6: Get game by ID
 **Request:**
-   `GET /api/games/{game_id}`
+   `GET /api/games/{id}`
 
 **Description:**
     Retrieve a game by ID
@@ -318,13 +318,13 @@ Response(XML):
 
 	body:
 		{
-		    “game_id”: 006,
-            "game_name": "Call of Duty: Black Ops 6",
+		    “id”: 006,
+            "name": "Call of Duty: Black Ops 6",
         	"developer": “Treyarch, Raven Software",
        		"category": "FPS",
-		    “released_date: “25 October, 2024”
+		    “released: “25 October, 2024”
         	"price": "₱3699.00",
-        	"advertisement_video": "Video Link"
+        	"advertisement": "Video Link"
     	},
 
 
@@ -332,13 +332,13 @@ Response(XML):
 
 	<body>
     	<game>
-			<game_id>006</game_id>
-        	<game_name>Call of Duty: Black Ops 6</game_name>
+			<id>006</id>
+        	<name>Call of Duty: Black Ops 6</name>
         	<developer>Treyarch, Raven Software</developer>
         	<category>FPS</category>
-		    <released_date>25 October, 2024</released_date>
+		    <released>25 October, 2024</released>
         	<price>₱3699.00</price>
-        	<advertisement_video>Video Link</advertisement_video>
+        	<advertisement>Video Link</advertisement>
 	</game>
 	</body>
 
@@ -371,15 +371,15 @@ Get all the games in a wishlist collection
 
 	<wishlist>
     		<games>
-        		<game_name>Red Dead Redemption 2</game_name>
-		<game_name>Minecraft</game_name>
-		<game_name>Valorant</game_name>
+        		<name>Red Dead Redemption 2</name>
+		<name>Minecraft</name>
+		<name>Valorant</name>
         	</games>
 	</wishlist>
 
 ## End point 8: Delete game by ID
 **Request:**
-  `DELETE /api/games/{game_id}`
+  `DELETE /api/games/{id}`
 
 **Description:**
    Deletes a game by ID
@@ -416,9 +416,9 @@ Headers:
 
 	Body:
     	{
-            “game_name”: “Valorant”,
-            “game_name”: “League of Legends”,
-            “game_name”: “Teamfight Tactics(TFT)”,
+            “name”: “Valorant”,
+            “name”: “League of Legends”,
+            “name”: “Teamfight Tactics(TFT)”,
     	}
 
 
@@ -438,27 +438,27 @@ Request:
 	   Body:
 		[
     		{
-		        "game_name": "Minecraft",
+		        "name": "Minecraft",
         		"developer": “Mojang Studios",
        		    "category": "Survival, Multiplayer",
-		        “released_date: “18 November, 2011”
+		        “released: “18 November, 2011”
         		"price": "₱69",
-        		"advertisement_video": "Video Link"
+        		"advertisement": "Video Link"
     		}
 		{
-                "game_name": "DRAGON BALL: Sparkling! ZERO",
+                "name": "DRAGON BALL: Sparkling! ZERO",
         		"developer": “Spike Chunsoft",
        		    "category": "3D Fighter, Multiplayer",
-		        “released_date: “11 October, 2024”
+		        “released: “11 October, 2024”
         		"price": "₱2799.00",
-        		"advertisement_video": "Video Link"
+        		"advertisement": "Video Link"
     		},
-		        "game_name": "Tekken 8",
+		        "name": "Tekken 8",
         		"developer": “Bandai Namco",
        		    "category": "Martial Arts, Multiplayer",
-		        “released_date: “26 Jan, 2024”
+		        “released: “26 Jan, 2024”
         		"price": "₱2799.95",
-        		"advertisement_video": "Video Link"
+        		"advertisement": "Video Link"
     		},
 		]
 
