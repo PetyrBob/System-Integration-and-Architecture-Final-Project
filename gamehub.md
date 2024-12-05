@@ -1,11 +1,16 @@
 # System Integration Api Documentation Endpoints
-## Finals Exam
+# Final Exam
 
 Peter Bob R. Domogma
 
 John Rymell P. Pabellosa
 
 # **J & B GameHub**
+## Base URL
+
+    https://api.jandbgames.com/v1
+
+
 
 ## End Point 1: Get all available games
 - **Request:**
@@ -89,7 +94,7 @@ Response(XML):
 
 
 ## End Point 2: Filter a games by name
-**Request:**
+- **Request:**
     `GET /api/games/{name}`
 
 **Description:**
@@ -130,7 +135,7 @@ Response(XML):
 
 
 ## End Point 3: Create a game 
-**Request:**
+- **Request:**
     `POST  /api/games`
 
 **Description:**
@@ -194,7 +199,7 @@ Response(XML):
 
 
 ## End point 4: Update game by ID
-**Request:**
+- **Request:**
    `PUT /api/games/{id}`
 
 **Description:**
@@ -259,7 +264,7 @@ Response(XML):
 
 
 ## End point 5: Add a game to WishList Collection
-**Request:**
+- **Request:**
    `POST /api/games/name/game_list`
 
 **Description:**
@@ -303,7 +308,7 @@ Response(XML):
 	</body>
 
 ## End point 6: Get game by ID
-**Request:**
+- **Request:**
    `GET /api/games/{id}`
 
 **Description:**
@@ -344,7 +349,7 @@ Response(XML):
 
 
 ## End point 7: Retrieve all games in a collection 
-**Request:**
+- **Request:**
      `HEAD /api/games/game_list`
 
 **Description:**
@@ -378,7 +383,7 @@ Get all the games in a wishlist collection
 	</wishlist>
 
 ## End point 8: Delete game by ID
-**Request:**
+- **Request:**
   `DELETE /api/games/{id}`
 
 **Description:**
@@ -402,7 +407,7 @@ Get all the games in a wishlist collection
 
 
 ## End point 9: Retrieve games by the developer
-**Request:**
+- **Request:**
   `GET /api/games/{developer}`
 
 **Description:**
@@ -424,7 +429,7 @@ Headers:
 
 	
 ## End point 10: Retrieve games by their category
-Request:
+- Request:
   `GET /api/games/{category}`
 
 **Description:**
